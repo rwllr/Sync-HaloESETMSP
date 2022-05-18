@@ -1,2 +1,2 @@
 # Sync-HaloESETMSP
-Sync license counts to 
+Sync ESET MSP license counts to HaloPSA for a more accurate billing experience.
