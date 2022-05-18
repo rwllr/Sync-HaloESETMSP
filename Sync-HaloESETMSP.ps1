@@ -1,4 +1,5 @@
 Import-Module HaloHelper.psm1
+Import-Module ESETHelper.psm1
 
 function Sync-ESETLicenses
 {
