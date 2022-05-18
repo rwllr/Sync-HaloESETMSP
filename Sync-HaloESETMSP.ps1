@@ -86,5 +86,6 @@ function Sync-ESETLicenses
   # HALO ONLY UPDATES IF THERE ARE CHANGES
 }
 
+$token = Connect-HaloAPI -ClientID $HaloClientID -BaseUri "$HaloURL" -Secret $HaloClientSecret -HostedTenant "tenant"
 $null = Connect-ESETAPI -Username "esetaccount@example.org" -Password "esetpassword"
 Sync-ESETLicenses
