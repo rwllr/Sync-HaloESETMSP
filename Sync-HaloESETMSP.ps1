@@ -1,3 +1,5 @@
+Import-Module HaloHelper.psm1
+
 function Sync-ESETLicenses
 {
   $AllHaloLicenses = Invoke-HaloRestMethod -Endpoint "api/softwarelicence?pageinate=true&page_size=1000&page_no=1"
